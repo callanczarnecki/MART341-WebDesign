@@ -1,0 +1,15 @@
+What is an advantage to using a text editor? 
+It allows us to actually edit our files. But often times its
+really nice to have a more complex text editor than something
+like notepad. I'm using VSCode because I'm familiar with it and
+it also has a lot of nice features like the preview window, autocomplete,
+file management, cool colors, etc. 
+
+Is there an advantage of using a relative vs an absolute URL?
+Relative URLs are nice because they are easy to type and the
+linked files must be in the same file system. They also will
+never change or go down without the creators knowing.
+
+Absolute URLs allow us to link anything on the internet, but they
+can be hefty to type and go down without us knowing. If we link a 
+youtube video it can be taken down at any time and our website breaks. 
