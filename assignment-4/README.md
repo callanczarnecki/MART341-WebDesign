@@ -1,4 +1,5 @@
 Explain how web browsers function
+Browsers are what takes random pages from the internet and presents them to the user. They have an engine and a renderer that work together to take the data in the page and show it.
 
 Define and describe DOM
 DOM (Document Object Model) is the medium between the page and what is actually shown to the user.
