@@ -1,0 +1,35 @@
+div{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: auto;
+}
+
+.hknightcont {
+    border-style: dotted;
+    border-width: 5px;
+    font: white;
+    opacity: .95;
+    padding: 10px;
+    background : lightgrey;
+    border-color: rgb(14, 16, 39);
+    width: 75%;
+    position: relative;
+}
+
+.dsoulscont{
+    border-style: dotted;
+    width:75%;
+    padding: 10px;
+    font: blue;
+    border-color: rgb(94, 52, 8);
+    background: red;
+    opacity: .85;
+    position: relative;
+}
+
+#mainheader{
+    position: relative;
+    opacity: .75;
+    color: rgb(24, 57, 57);
+    font-size: 60px;
+}
