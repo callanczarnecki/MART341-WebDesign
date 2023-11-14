@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'Valoon';
+    src: url('../fonts/Valoon.ttf') format('truetype');
+    font-style: 'bold';
+}
+
+@font-face{
+    font-family:'fFinish';
+    src: url('../fonts/fFinish.ttf') format('truetype');
+    font-style: 'normal';
+}
+
+@font-face{
+    font-family:'fFinish';
+    src: url('../fonts/kedmote.otf') format('truetype');
+    font-style: 'italic';
+}

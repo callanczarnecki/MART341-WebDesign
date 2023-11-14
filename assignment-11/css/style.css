@@ -1,0 +1,41 @@
+div{
+    text-align: left;
+    font-family: fFinish;
+    font-style: normal;
+    margin: 10px;
+}
+
+h1{
+    text-align: middle;
+    font-family: Valoon;
+    font-style: bold;
+    font-weight: 400;
+    font: dark;
+    background-color: burlywood;
+}
+
+p{
+    text-align: left;
+    font-family: fFinish;
+    font-style: normal;
+    margin: 10px;
+    background-color: cadetblue;
+}
+
+p::first-letter {
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#titanimg {
+    font-weight: 900;
+}
+
+#titanimg:hover {
+    background: url("../imgs/titanimg.jpeg");
+    float: right;
+    display: block;
+    width: 1339px;
+    height: 1004px;
+}
