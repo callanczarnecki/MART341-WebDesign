@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Climbing Inquiry</title>
+
+        <style>
+            body {
+                background-color: blueviolet
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 20px;
+            }
+
+            table {
+                border: 2px solid black; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="images/yose.jpg" width="600" height="600" alt="Yosemite Pic">
+
+        <p>
+            Enter Info About Yourself so I can Get Started Helping You Climb!
+        </p>
+        <form method="post" action="index.html">
+            <!--Free Response-->
+            Name:<br />
+            <input type="text" id="name" placeholder="NAME" autofocus>
+            <br>
+            Location:<br />
+            <input type="text" id="name" placeholder="ex. WEST MONTANA" autofocus>
+            <br>
+
+            <!--Text Area-->
+
+            What Info Are You Looking to Find?<br />
+
+            <textarea name="addInfo" id="addInfo" rows="20" col="20">Info to Find!?!?!?</textarea>
+
+            <!--Checks-->
+            <fieldset>
+                <legend>Interests</legend>
+                
+                <input type="checkbox" name="gym" id="gym">
+                <label for "gym">Gym</label><br />
+                <input type="checkbox" name="sport" id="sport">
+                <label for "gym">Sport</label><br />
+                <input type="checkbox" name="trad" id="trad">
+                <label for "gym">Trad</label><br />
+            </fieldset>
+
+            <!--Radio Button-->
+
+            Are You Rad Enough to Climb with Us?
+            Yes <input type="radio" name="Submit" type="Submit" value="cool">
+            No <input type="radio" name="Submit" type="Submit" value="lame">
+
+            </br>
+
+            <input type="submit" name="Submit" value="Submit"/>
+        </form>
+
+        <p>
+            <p>These Are Freestones Hours and I'm Always There! Feel Free to Say Hi if I don't Respond!</p>
+            <table>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Weekdays!</td>
+                    <td>6am - 10pm</td>
+                </tr>
+                <tr>
+                    <td>Weekends!</td>
+                    <td>8am - 10pm</td>
+                </tr>
+            </table>
+        </p> 
+    </body>
+</html>
